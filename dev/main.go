@@ -12,5 +12,5 @@ func main() {
 		Url:       "https://go.dev",
 		PageLimit: 100,
 	}
-	godung.GoDung(options)
+	godung.GoDung(&options)
 }
